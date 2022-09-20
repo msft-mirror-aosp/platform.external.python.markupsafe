@@ -9,12 +9,4 @@ python_library {
         "markupsafe/__init__.py",
         "markupsafe/_native.py",
     ],
-    version: {
-        py2: {
-            enabled: true,
-        },
-        py3: {
-            enabled: true,
-        },
-    },
 }
