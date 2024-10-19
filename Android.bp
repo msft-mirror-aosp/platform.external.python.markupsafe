@@ -14,3 +14,9 @@ license {
         "LICENSE.rst",
     ],
 }
+
+dirgroup {
+    name: "trusty_dirgroup_external_python_markupsafe",
+    dirs: ["."],
+    visibility: ["//trusty/vendor/google/aosp/scripts"],
+}
